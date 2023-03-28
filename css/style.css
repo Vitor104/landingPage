@@ -2,36 +2,41 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    display: grid;
-    grid-template-areas: "header header header"
-    "aside main main"
-    "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto 100vh auto;
-   
+    height: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+@keyframes logo {
+    from {color: rgb(0, 0, 0);}
+    to {color: rgb(255, 255, 255);}
+  }
+
+.menu {
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    margin-top: 0;
+    width: 60%;
+    float: left;
+}
+
+.logo h1 {
+    animation-duration: 5s;
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    padding: 15px 15px;
+    text-transform: uppercase;
+}
+
+
+.container-elementos ul li {
+    display: inline-block; 
+    width: 40%;  
+}
+
+.container-elementos {
     
-}
-
-.o-header {
-    grid-area: header;
-    background-color: rgb(0, 0, 0);
-    height: 200px;
-   
-}
-
-.o-aside {
-    grid-area: aside;
-    background-color: rgb(179, 37, 37);
-    
-}
-
-.o-main {
-    grid-area: main;
-    
-}
-
-.o-footer {
-    grid-area: footer;
-    background-color: rgb(252, 28, 28);
-    height: 200px;
 }
