@@ -7,6 +7,9 @@ body {
     background-color: black;
     color: white;
 }
+
+/*navegação e logo*/
+
 @keyframes logo {
     from {color: rgb(0, 0, 0);}
     to {color: rgb(255, 255, 255);}
@@ -27,16 +30,49 @@ body {
     animation-duration: 5s;
     animation-name: logo;
     animation-iteration-count: infinite;
-    padding: 15px 15px;
+    padding-top: 15px;
+    padding-left: 25px;
     text-transform: uppercase;
+    animation-delay: 5s;
 }
 
 
 .container-elementos ul li {
-    display: inline-block; 
-    width: 40%;  
+    display: inline-block;
+    height: 55px;
+    padding: 50px 10px 0px 10px;
+    
 }
 
 .container-elementos {
+    list-style: none;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 20px;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+.elements:hover {
+    color: brown;
+    border-bottom: 2px solid brown;
+    border-bottom-width: 2px;
+    
+}
+
+/**/
+
+.comentarios {
+    
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+main {
     
 }
