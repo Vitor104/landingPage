@@ -98,3 +98,8 @@ hr {
 .comentarios h2 {
     text-align: center;
 }
+
+.botao {
+    background-color: transparent;
+    color: white;
+}

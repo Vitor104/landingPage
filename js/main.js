@@ -1,6 +1,11 @@
-let change = document.querySelector(".imagem");
+let imagem = document.querySelector(".imagem");
+let btn = document.querySelector("button");
+let param = document.querySelector(".param");
 
-function changePhoto() {
-    imagem.style.imagem = Image;
+btn.addEventListener("click", trocaFoto);
+
+
+function trocaFoto () {
+    imagem.src = "img/coffee.jpg"
+    param.innerHTML = "sou um paragraf"
 }
-
