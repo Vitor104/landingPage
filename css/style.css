@@ -113,3 +113,15 @@ hr {
    margin-left: 130px;
    
 }
+
+.main {
+    margin-top: 300px;
+    margin-left: 700px;
+    
+}
+
+.sell {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
