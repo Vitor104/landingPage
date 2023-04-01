@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 /*navegação e logo*/
@@ -65,63 +66,23 @@ a {
 
 /**/
 
-.comentarios {
-    margin-top: 150px;
-    width: 400px;
-    height: 800px;
-    float: left;
-    border: 3px solid #bc8f8f;
-    
-}
-
-hr {
-    background-color: #bc8f8f;;
-}
-
-.comentarios img {
-    position: absolute;
-    width: 300;
-    height: 300px;
-    margin: 80px;
-    border-radius: 20px;
-}
-
-
-.comentarios p {
-    position: relative;
-    margin-top: 400px;
-    margin-left: 50px;
-    width: 80%;
-    
-}
-
-.comentarios h2 {
+section {
     text-align: center;
+    position: relative;
+    display: inline-block;
 }
 
-.botao {
-    background-color: transparent;
-    color: white;
-}
 
-.botao img {
-    min-height: 90px;
-    max-height: 100px;
-    min-width: 90px;
-    max-width: 100px;
-   margin-top: 10px;
-   margin-left: 130px;
-   
-}
-
-.main {
-    margin-top: 300px;
-    margin-left: 700px;
+.imagem-principal {
+    margin-top: 50px;
+    width: 1024px;
     
 }
 
-.sell {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+.detalhe label {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    left: 450px;
+    top: 135px;
 }
