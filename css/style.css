@@ -89,4 +89,23 @@ a {
     height: 350px;
     border: 10px solid red;
     margin-left: 280px;
+    background-color: hsl(214, 100%, 20%, 0.18);
+}
+
+#pacotes {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pacotes p {
+    width: 150px;
+}
+
+.basico:hover {
+    border-radius: 5px;
+    background-color: black;
+    transform: scale3d(0.28);
+    transition: 3s;
+    z-index: 2;
 }
