@@ -97,7 +97,7 @@ a {
     width: 850px;
     height: 350px;
     margin-left: 280px;
-    background-color: hsl(214, 100%, 20%, 0.18);
+    background-color: hsl(214, 100%, 10%, 0.18);
 }
 
 #pacotes {
@@ -118,21 +118,26 @@ a {
     z-index: 2;
 }
 
+
+
+
 .registrar {
-    margin-top: 250px;
+    margin-top: 50px;
     width: 750px;
     height: 350px;
     text-align: center;
+    background-color: hsl(214, 100%, 10%, 0.18);
 }
 
-.registrar h4 {
+.registrar h3 {
     width: 250px;
     padding: 150px 150px 30px 150px;
 }
 
 .input {
     margin-left: 180px;
-    margin-top: 0;
+    margin-top: 25px;
+    background-color: hsla(220, 5%, 22%, 0);
 }
 
 input[type=number]::-webkit-inner-spin-button { 
@@ -160,12 +165,37 @@ input {
 }
 
 .input button {
-    margin-left: 40px;
+    margin-left: 5px;
     background-color: hsl(214, 100%, 20%, 0.18);
     color: rgb(255, 255, 255);
+    width: 150px;
+    border: none;
+    
 }
 
 #button {
-    margin-left: 20px !important;
+    margin-left: 5px !important;  
+}
+
+.input button:hover {
+    background-color: black;
+    border-radius: 30px;
+    transition: 3s;
+}
+
+
+
+.slide {
+    height: 250px;
+    width: 250px;
+    border: 15px solid red;
+    position: relative;
+    bottom: 100px;
+    float: right;
     
+}
+
+.slide img {
+    height: 150px;
+    width: 150px;
 }
