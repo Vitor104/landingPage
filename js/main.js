@@ -1,10 +1,9 @@
-
-let photo = document.getElementsByClassName(".photo");
-
-photo.addEventListener("click", changePhoto);
-
-function changePhoto () {
-    div.innerContent = "..img/escuro.jpg"
-};
+let button = document.querySelector("button#imagens");
+let img = document.querySelector("img.photo");
 
 
+button.addEventListener("click", change);
+
+function change () {
+    
+}

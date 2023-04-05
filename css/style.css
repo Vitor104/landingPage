@@ -135,7 +135,7 @@ a {
 }
 
 .input {
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 25px;
     background-color: hsla(220, 5%, 22%, 0);
 }
@@ -183,7 +183,26 @@ input {
     transition: 3s;
 }
 
+footer {
+    margin-top: 150px;
+    text-align: center;
+    background-color: hsla(214, 6%, 23%, 0.18);
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 .slide {
     height: 250px;
@@ -199,3 +218,4 @@ input {
     height: 150px;
     width: 150px;
 }
+*/
