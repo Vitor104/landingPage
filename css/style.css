@@ -166,7 +166,7 @@ input {
 
 .input button {
     margin-left: 5px;
-    background-color: hsl(214, 100%, 20%, 0.18);
+    background-color: hsla(214, 100%, 20%, 0.18);
     color: rgb(255, 255, 255);
     width: 150px;
     border: none;
@@ -187,35 +187,30 @@ footer {
     margin-top: 150px;
     text-align: center;
     background-color: hsla(214, 6%, 23%, 0.18);
+    
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*
 
 .slide {
     height: 250px;
     width: 250px;
     border: 15px solid red;
     position: relative;
-    bottom: 100px;
+    bottom: 400px;
     float: right;
+
     
+}
+
+.slide img:hover {
+    z-index: 2;
+    background-color: black;
+    color: white;
 }
 
 .slide img {
     height: 150px;
     width: 150px;
 }
-*/

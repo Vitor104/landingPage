@@ -1,9 +1,16 @@
-let button = document.querySelector("button#imagens");
+
 let img = document.querySelector("img.photo");
+let teste = document.querySelector("p.teste");
+
+img.addEventListener("mouseover", myFunction);
+img.addEventListener("mouseout", myOtherFunction);
 
 
-button.addEventListener("click", change);
+function myFunction () {
+    teste.innerHTML = "esse é um paragrafo";
+};
 
-function change () {
-    
-}
+function myOtherFunction () {
+    teste.innerHTML = "paranfan";
+};
+
