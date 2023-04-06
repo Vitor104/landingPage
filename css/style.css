@@ -196,10 +196,10 @@ footer {
 .slide {
     height: 250px;
     width: 250px;
-    border: 15px solid red;
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
     float: right;
+    right: 150px;
 
     
 }
@@ -211,6 +211,6 @@ footer {
 }
 
 .slide img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
