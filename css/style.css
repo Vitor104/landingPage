@@ -200,14 +200,20 @@ footer {
     bottom: 450px;
     float: right;
     right: 150px;
+    text-align: center;
 
     
 }
 
-.slide img:hover {
-    z-index: 2;
-    background-color: black;
+.slide-teste:hover {
+    box-shadow: black;
+    transform: scale(1.3);
+    z-index: 1;
     color: white;
+}
+
+.slide-teste img:hover {
+    border-radius: 25px;
 }
 
 .slide img {

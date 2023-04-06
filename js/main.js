@@ -7,10 +7,10 @@ img.addEventListener("mouseout", myOtherFunction);
 
 
 function myFunction () {
-    teste.innerHTML = "esse é um paragrafo";
+    teste.innerHTML = "esse é um paragrafo afnafnajfjdnsjnsjnvsjvvsdsdsgsvsfgsbdbd";
 };
 
 function myOtherFunction () {
-    teste.innerHTML = "paranfan";
+    teste.innerHTML = "Veja a opnião de Layla sobre a viagem dela.";
 };
 
