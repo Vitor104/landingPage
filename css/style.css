@@ -183,16 +183,6 @@ input {
     transition: 3s;
 }
 
-footer {
-    margin-top: 150px;
-    text-align: center;
-    background-color: hsla(214, 6%, 23%, 0.18);
-    
-}
-
-
-
-
 .slide {
     height: 250px;
     width: 250px;
@@ -200,9 +190,7 @@ footer {
     bottom: 450px;
     float: right;
     right: 150px;
-    text-align: center;
-
-    
+    text-align: center;    
 }
 
 .slide-teste:hover {
@@ -219,4 +207,22 @@ footer {
 .slide img {
     height: 200px;
     width: 200px;
+}
+
+.slide-teste2:hover {
+    box-shadow: black;
+    transform: scale(1.3);
+    z-index: 1;
+    color: white;
+}
+
+.slide-teste2 img:hover {
+    border-radius: 25px;
+}
+
+footer {
+    margin-top: 250px;
+    text-align: center;
+    background-color: hsla(214, 6%, 23%, 0.18);
+    
 }
