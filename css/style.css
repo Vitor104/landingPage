@@ -4,9 +4,14 @@ body {
     background-color: skyblue;
     box-sizing: border-box;
     color: white;
+    border-bottom: 5px solid white;
 }
-
-
+header
+{
+    background-color: skyblue;
+    height: 20em;
+    width: 100%;
+}
 #sol
 {
     width: 90px;
@@ -15,14 +20,12 @@ body {
     top: 3em;
     left: 3em;
 }
-
-
 #nuvem-um
 {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 15em;
+    left: 20em;
     top: 4em;
 }
 #nuvem-dois
@@ -30,7 +33,7 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 25em;
+    left: 35em;
     top: 4em;
 }
 #nuvem-tres
@@ -38,15 +41,15 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 35em;
-    top: 7em;
+    left: 55em;
+    top: 6em;
 }
 #nuvem-quatro
 {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 45em;
+    left: 65em;
     top: 4em;
 }
 #nuvem-cinco
@@ -54,29 +57,85 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 55em;
+    left: 75em;
     top: 4em;
+}
+#estrela-um
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 20em;
+    top: 4em;
+    display: none;
+}
+#estrela-dois
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 35em;
+    top: 4em;
+    display: none;
+}
+#estrela-tres
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 55em;
+    top: 6em;
+    display: none;
+}
+#estrela-quatro
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 65em;
+    top: 4em;
+    display: none;
+}
+#estrela-cinco
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 75em;
+    top: 4em;
+    display: none;
 }
 #aviao
 {
     position: absolute;
-    top: 15em;
+    top: 10em;
     left: 55em;
 }
-
-/*
-.mudar {
-    background-color: rgb(8, 8, 63);
-    background-image: none;
-}
-.mudanca {
-    display: none;
-}
-.mudanca-dois {
-    display: block;
-}
-#botao 
+#lua
 {
     display: none;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 3em;
+    left: 3em;
 }
-*/
+#botao
+{
+    position: absolute;
+    top: 25em;
+    padding: 5px;
+    background: transparent;
+    border-radius: 55%;
+    border-right: none;
+}
+#botao-dois
+{
+    position: absolute;
+    left: 3em;
+    top: 25em;
+    padding: 5px;
+    background: transparent;
+    border-radius: 55%;
+    border-left: none;
+}
