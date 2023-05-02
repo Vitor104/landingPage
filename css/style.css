@@ -6,11 +6,30 @@ body {
     color: white;
     border-bottom: 5px solid white;
 }
+
+/*   HEADER   */
 header
 {
     background-color: skyblue;
     height: 20em;
     width: 100%;
+    text-align: center;
+}
+header > h1
+{
+    text-transform: uppercase;
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    font-size: 5em;
+    left: 6em;
+    top: 0.5em;
+}
+header > p
+{
+    position: absolute;
+    font-size: 1em;
+    left: 38em;
+    top: 11em;
 }
 #sol
 {
@@ -19,91 +38,6 @@ header
     position: absolute;
     top: 3em;
     left: 3em;
-}
-#nuvem-um
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 20em;
-    top: 4em;
-}
-#nuvem-dois
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 35em;
-    top: 4em;
-}
-#nuvem-tres
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 55em;
-    top: 6em;
-}
-#nuvem-quatro
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 65em;
-    top: 4em;
-}
-#nuvem-cinco
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 75em;
-    top: 4em;
-}
-#estrela-um
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 20em;
-    top: 4em;
-    display: none;
-}
-#estrela-dois
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 35em;
-    top: 4em;
-    display: none;
-}
-#estrela-tres
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 55em;
-    top: 6em;
-    display: none;
-}
-#estrela-quatro
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 65em;
-    top: 4em;
-    display: none;
-}
-#estrela-cinco
-{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 75em;
-    top: 4em;
-    display: none;
 }
 #aviao
 {
@@ -120,22 +54,129 @@ header
     top: 3em;
     left: 3em;
 }
+#nuvem-um
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 25em;
+    top: 8em;
+}
+#nuvem-dois
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 30em;
+    top: 13em;
+}
+#nuvem-tres
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 41.7em;
+    top: 2.5em;
+}
+#nuvem-quatro
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50em;
+    top: 14em;
+}
+#nuvem-cinco
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 61em;
+    top: 9em;
+}
+#estrela-um
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 25em;
+    top: 8em;
+    display: none;
+}
+#estrela-dois
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 30em;
+    top: 13em;
+    display: none;
+}
+#estrela-tres
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 41.5em;
+    top: 1.5em;
+    display: none;
+}
+#estrela-quatro
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 50em;
+    top: 13.5em;
+    display: none;
+}
+#estrela-cinco
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 61em;
+    top: 8em;
+    display: none;
+}
 #botao
 {
     position: absolute;
-    top: 25em;
+    top: 1em;
+    right: 1em;
     padding: 5px;
     background: transparent;
-    border-radius: 55%;
-    border-right: none;
+    border: none;
+}
+#botao > #imagem-botao
+{
+    height: 2em;
+    width: 2em;
+    border: none;
+    cursor: pointer;
 }
 #botao-dois
 {
     position: absolute;
-    left: 3em;
-    top: 25em;
+    right: 1em;
+    top: 4em;
     padding: 5px;
     background: transparent;
-    border-radius: 55%;
-    border-left: none;
+    border: none;
+}
+#botao-dois > #sol-botao
+{
+    height: 2em;
+    width: 2em;
+    border: none;
+    cursor: pointer;
+}
+
+/*    CONTEÚDO   */
+
+.destinos
+{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
 }

@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SideralSpace</title>
+    
+    <title>EasyTravel</title>
+    <link rel="shortcut icon" href="img/Icons8-Windows-8-Transport-Airplane-Takeoff.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header>
+    <h1>EasyTravel</h1>
+    <p>Facilitando a sua viagem dos sonhos!</p>
+
     <img id="sol" src="img/sol.png" alt="">
     <img src="img/lua.png" alt="" id="lua">
     <img src="img/aviao.png" alt="" id="aviao">
+
     <div>
         <img src="img/nuvem.png" alt="" class="nuvens" id="nuvem-um">
         <img src="img/nuvem.png" alt="" class="nuvens" id="nuvem-dois">
@@ -25,10 +35,15 @@
         <img src="img/estrela.png" alt="" id="estrela-quatro">
         <img src="img/estrela.png" alt="" id="estrela-cinco">
     </div>
+
+    <button id="botao" onclick="myPorta()"><img id="imagem-botao" src="img/lua.png" alt=""></button>
+    <button id="botao-dois" onclick="myFunction()"><img id="sol-botao" src="img/sol.png" alt=""></button>
 </header>
 
-    <button id="botao" onclick="myPorta()">White</button>
-    <button id="botao-dois" onclick="myFunction()">Dark</button>
+    <img class="destinos" src="img/toronto.jpg" alt="">
+
+
+    
 
     
 <script src="js/main.js"></script>
