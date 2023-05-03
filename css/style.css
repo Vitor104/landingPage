@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     color: white;
     border-bottom: 5px solid white;
+    transition: 0.1s;
 }
 
 /*   HEADER   */
@@ -21,14 +22,14 @@ header > h1
     position: absolute;
     font-family: 'Righteous', cursive;
     font-size: 5em;
-    left: 6em;
+    left: 5.7em;
     top: 0.5em;
 }
 header > p
 {
     position: absolute;
     font-size: 1em;
-    left: 38em;
+    left: 36em;
     top: 11em;
 }
 #sol
@@ -59,7 +60,7 @@ header > p
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 25em;
+    left: 22em;
     top: 8em;
 }
 #nuvem-dois
@@ -99,7 +100,7 @@ header > p
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 25em;
+    left: 23em;
     top: 8em;
     display: none;
 }
@@ -174,9 +175,18 @@ header > p
 
 /*    CONTEÚDO   */
 
-.destinos
+main 
 {
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
+    position: relative;
+    top: 15em;
+    left: 31em;
+    color: black;
+    width: 90%;
+}
+
+section > .preco > img
+{
+    background-color: white;
+    padding: 55px;
+    border-radius: 20%;
 }
