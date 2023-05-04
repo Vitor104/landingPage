@@ -4,9 +4,9 @@ body {
     background-color: skyblue;
     box-sizing: border-box;
     color: white;
-    border-bottom: 5px solid white;
     transition: 0.1s;
     overflow-x: hidden;
+    width: 1370px;
 }
 
 /*   HEADER   */
@@ -16,6 +16,7 @@ header
     height: 20em;
     width: 100%;
     text-align: center;
+    border-bottom: 5px solid white;
 }
 header > h1
 {
@@ -59,48 +60,48 @@ header > p
 #nuvem-um
 {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     left: 22em;
     top: 8em;
 }
 #nuvem-dois
 {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     left: 30em;
     top: 13em;
 }
 #nuvem-tres
 {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     left: 41.7em;
     top: 2.5em;
 }
 #nuvem-quatro
 {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     left: 50em;
     top: 14em;
 }
 #nuvem-cinco
 {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     left: 61em;
     top: 9em;
 }
 #estrela-um
 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 23em;
     top: 8em;
     display: none;
@@ -108,8 +109,8 @@ header > p
 #estrela-dois
 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 30em;
     top: 13em;
     display: none;
@@ -117,8 +118,8 @@ header > p
 #estrela-tres
 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 41.5em;
     top: 1.5em;
     display: none;
@@ -126,8 +127,8 @@ header > p
 #estrela-quatro
 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 50em;
     top: 13.5em;
     display: none;
@@ -135,8 +136,8 @@ header > p
 #estrela-cinco
 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 61em;
     top: 8em;
     display: none;
@@ -179,45 +180,51 @@ header > p
 main 
 {
     position: relative;
-    top: 15em;
-    left: 31em;
+    top: 5em;
     color: black;
-    width: 90%;
+    width: 100;
+    background-color: white;
+    margin-bottom: 15em;
 }
-section > .preco
+main > h2
+{
+    position: absolute;
+    bottom: 10.5em;
+    left: 23em;
+    color: white;
+}
+main > .primeira-parte
+{
+    height: 15em;
+    width: 100%;
+    
+}
+main > .primeira-parte > article > #img-viajando
+{
+    height: 128px;
+    width: 128px;
+    position: absolute;
+    top: 3.1em;
+    left: 5em;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 40%;
+}
+main > .primeira-parte > article > .texto
 {
     position: relative;
-    bottom: 10em;
+    left: 20em;
+    width: 30%;
 }
 
-section > .preco > #viajando
+main > .primeira-parte > article > .texto > #oportunidade
 {
-    background-color: white;
-    padding: 180px 85px;
-    border-radius: 20%;
     position: absolute;
-    right: 85em;
+    top: 2em;
 }
-/*
-section > .preco > .texto
+
+main > .primeira-parte > article > .texto > p
 {
-    height: 4em;
-    width: 50%;
-    background-color: white;
     position: absolute;
-    top: 13em;
-    right: 46em;
-}
-*/
-section > .preco > #texto-um
-{
-    height: 4em;
-    background-color: white;
-    position: absolute;
-    top: 10em;
-    right: 61em;
-    bottom: 2em;
-    width: 30%;
-    border-top-right-radius: 40%;
-    border-bottom-right-radius: 40%;
+    top: 7em;
 }
