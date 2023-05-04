@@ -6,6 +6,7 @@ body {
     color: white;
     border-bottom: 5px solid white;
     transition: 0.1s;
+    overflow-x: hidden;
 }
 
 /*   HEADER   */
@@ -183,10 +184,40 @@ main
     color: black;
     width: 90%;
 }
+section > .preco
+{
+    position: relative;
+    bottom: 10em;
+}
 
-section > .preco > img
+section > .preco > #viajando
 {
     background-color: white;
-    padding: 55px;
+    padding: 180px 85px;
     border-radius: 20%;
+    position: absolute;
+    right: 85em;
+}
+/*
+section > .preco > .texto
+{
+    height: 4em;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 13em;
+    right: 46em;
+}
+*/
+section > .preco > #texto-um
+{
+    height: 4em;
+    background-color: white;
+    position: absolute;
+    top: 10em;
+    right: 61em;
+    bottom: 2em;
+    width: 30%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
 }
