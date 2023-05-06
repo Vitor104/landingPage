@@ -407,3 +407,35 @@ main > footer
     position: absolute;
     top: 85em;
 }
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+     body, header {
+        text-align: center;
+        width: 767px;
+     }
+     .nuvens {
+        display: none;
+     }
+    #sol {
+        display: none;
+     }
+     #lua {
+        display: none;
+     }
+     header > h1 {
+        right: 30em;
+        font-size: 1em;
+     }
+     #slogan {
+        right: 30em;
+    }
+    header > #botao
+    {
+        right: 30em;
+    }
+    header > #botao-dois {
+        right: 30em;
+    }
+}
