@@ -16,6 +16,22 @@ function myPorta() {
     let estrelatres = document.querySelector("#estrela-tres").style.display = "block";
     let estrelaquatro = document.querySelector("#estrela-quatro").style.display = "block";
     let estrelacinco = document.querySelector("#estrela-cinco").style.display = "block";
+
+    let primeira = document.querySelector("main").style.background = "transparent";
+    let segunda = document.querySelector("#segunda-imagem").style.background = "transparent";
+    let terceira = document.querySelector("#terceira-imagem").style.background = "transparent";
+    let textoum = document.querySelector("#oportunidade").style.color = "white";
+    let textodois = document.querySelector("#oportunidade-dois").style.color = "white";
+    let textotres = document.querySelector("#oportunidade-tres").style.color = "white";
+    let paramum = document.querySelector("#param-um").style.color = "white";
+    let paramdois = document.querySelector("#param-dois").style.color = "white";
+    let paramtres = document.querySelector("#param-tres").style.color = "white";
+
+    let segundaparte = document.querySelector(".segunda-parte").style.background = "transparent";
+    let chamada = document.querySelector("#chamadatexto").style.color = "white";
+    let chamadaparam = document.querySelector("#chamadatextodois").style.color = "white";
+    let detalhe = document.querySelector("footer").style.background = "transparent";
+    let conta = document.querySelector("#conta").style.color = "white";
 }
 
 function myFunction() {
@@ -35,4 +51,20 @@ function myFunction() {
     let estrelatres = document.querySelector("#estrela-tres").style.display = "none";
     let estrelaquatro = document.querySelector("#estrela-quatro").style.display = "none";
     let estrelacinco = document.querySelector("#estrela-cinco").style.display = "none";
+
+    let primeira = document.querySelector("main").style.background = "white";
+    let segunda = document.querySelector("#segunda-imagem").style.background = "white";
+    let terceira = document.querySelector("#terceira-imagem").style.background = "white";
+    let textoum = document.querySelector("#oportunidade").style.color = "black";
+    let textodois = document.querySelector("#oportunidade-dois").style.color = "black";
+    let textotres = document.querySelector("#oportunidade-tres").style.color = "black";
+
+    let segundaparte = document.querySelector(".segunda-parte").style.background = "white";
+    let paramum = document.querySelector("#param-um").style.color = "black";
+    let paramdois = document.querySelector("#param-dois").style.color = "black";
+    let paramtres = document.querySelector("#param-tres").style.color = "black";
+    let chamada = document.querySelector("#chamadatexto").style.color = "black";
+    let chamadaparam = document.querySelector("#chamadatextodois").style.color = "black";
+    let detalhe = document.querySelector("footer").style.background = "white";
+    let conta = document.querySelector("#conta").style.color = "black";
 }

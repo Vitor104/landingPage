@@ -31,8 +31,9 @@ header > p
 {
     position: absolute;
     font-size: 1em;
-    left: 36em;
+    left: 35em;
     top: 11em;
+    font-family: 'Work Sans', sans-serif;
 }
 #sol
 {
@@ -221,12 +222,16 @@ main > .primeira-parte > article > .texto > #oportunidade
 {
     position: absolute;
     top: 2em;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.4em;
+    letter-spacing: 2px;
 }
 
 main > .primeira-parte > article > .texto > p
 {
     position: absolute;
     top: 7em;
+    font-family: 'Work Sans', sans-serif;
 }
 main > .primeira-parte > #segunda-imagem
 {
@@ -253,12 +258,17 @@ main > .primeira-parte > #segunda-imagem > .texto-dois > p
     top: 7em;
     right: 20.9em;
     width: 30%;
+    font-family: 'Work Sans', sans-serif;
 }
 main > .primeira-parte > #segunda-imagem > .texto-dois > #oportunidade-dois
 {
     position: absolute;
     top: 2em;
     right: 15em;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    width: 30%;
 }
 
 main > .primeira-parte > #terceira-imagem 
@@ -292,12 +302,16 @@ main > .primeira-parte > article > .texto-tres > #oportunidade-tres
 {
     position: absolute;
     top: 2em;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.4em;
+    letter-spacing: 2px;
 }
 
 main > .primeira-parte > article > .texto-tres > p
 {
     position: absolute;
     top: 7em;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -321,6 +335,7 @@ main > .segunda-parte > #chamada
 main > .segunda-parte > #chamada > p
 {
     width: 85%;
+    font-family: 'Work Sans', sans-serif;
 }
 main > .segunda-parte > #chamada > ul
 {
@@ -367,6 +382,17 @@ main > .segunda-parte > .login > button
     cursor: pointer;
     border-radius: 5px;
     transition: 1s;
+    font-family: 'Bruno Ace SC', cursive;
+    text-transform: uppercase;
+}
+main > .segunda-parte > .login > a 
+{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 51em;
+    top: 4.5em;
+    width: 100%;
 }
 main > .segunda-parte > .login > button:hover
 {
