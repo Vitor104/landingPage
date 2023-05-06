@@ -67,4 +67,5 @@ function myFunction() {
     let chamadaparam = document.querySelector("#chamadatextodois").style.color = "black";
     let detalhe = document.querySelector("footer").style.background = "white";
     let conta = document.querySelector("#conta").style.color = "black";
+    
 }
