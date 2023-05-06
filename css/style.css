@@ -180,7 +180,7 @@ header > p
 main 
 {
     position: relative;
-    top: 5em;
+    top: 10em;
     color: black;
     width: 100;
     background-color: white;
@@ -189,7 +189,7 @@ main
 main > h2
 {
     position: absolute;
-    bottom: 10.5em;
+    bottom: 12em;
     left: 23em;
     color: white;
 }
@@ -227,4 +227,157 @@ main > .primeira-parte > article > .texto > p
 {
     position: absolute;
     top: 7em;
+}
+main > .primeira-parte > #segunda-imagem
+{
+    position: relative;
+    background-color: white;
+    top: 18em;
+    height: 15em;
+    width: 100%;
+}
+main > .primeira-parte > #segunda-imagem > #img-viajandodois
+{
+    height: 128px;
+    width: 128px;
+    position: absolute;
+    top: 3.1em;
+    right: 5em;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 40%;
+}
+main > .primeira-parte > #segunda-imagem > .texto-dois > p
+{
+    position: absolute;
+    top: 7em;
+    right: 20.9em;
+    width: 30%;
+}
+main > .primeira-parte > #segunda-imagem > .texto-dois > #oportunidade-dois
+{
+    position: absolute;
+    top: 2em;
+    right: 15em;
+}
+
+main > .primeira-parte > #terceira-imagem 
+{
+    position: relative;
+    background-color: white;
+    top: 21em;
+    height: 15em;
+    width: 100%;
+}
+
+main > .primeira-parte > article > #img-viajandotres
+{
+    height: 128px;
+    width: 128px;
+    position: absolute;
+    top: 3.1em;
+    left: 5em;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 40%;
+}
+main > .primeira-parte > article > .texto-tres
+{
+    position: relative;
+    left: 20em;
+    width: 30%;
+}
+
+main > .primeira-parte > article > .texto-tres > #oportunidade-tres
+{
+    position: absolute;
+    top: 2em;
+}
+
+main > .primeira-parte > article > .texto-tres > p
+{
+    position: absolute;
+    top: 7em;
+}
+
+
+main > .segunda-parte
+{
+    height: 20em;
+    width: 90%;
+    position: absolute;
+    top: 57em;
+    left: 3.4em;
+    background-color: white;
+    border-radius: 10px;
+}
+main > .segunda-parte > #chamada
+{
+    width: 35%;
+    position: relative;
+    top: 2em;
+    left: 5em;
+}
+main > .segunda-parte > #chamada > p
+{
+    width: 85%;
+}
+main > .segunda-parte > #chamada > ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 2em;
+    right: 7em;
+}
+main > .segunda-parte > #chamada > .contacts
+{
+    position: absolute;
+}
+main > .segunda-parte > #chamada > ul > #gmail > img
+{
+    height: 2em;
+    cursor: pointer;
+}
+main > .segunda-parte > #chamada > ul > #about > img 
+{
+    height: 2em;
+    cursor: pointer;
+}
+main > .segunda-parte > #chamada > ul > #insta > img 
+{
+    cursor: pointer;
+}
+main > .segunda-parte > .login
+{ 
+    width: 45%;
+    position: relative;
+    left: 5em;
+    bottom: 3em;
+}
+main > .segunda-parte > .login > button
+{
+    position: absolute;
+    left: 55em;
+    width: 50%;
+    height: 5em;
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+main > .segunda-parte > .login > button:hover
+{
+    background: transparent;
+}
+
+main > footer
+{
+    height: 5em;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 85em;
 }
