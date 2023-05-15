@@ -1,2 +1,2 @@
 # landingPage
- a landing page about space
+ a landing page about a travel agency
